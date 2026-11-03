@@ -142,7 +142,21 @@ const questions = [
     answer: 1,
     explanation:
       'Static Web Apps crea un entorno de staging por Pull Request (el plan Free permite unos pocos simultáneos). Al cerrar el PR, el job "close" lo elimina.'
-  }
+  },
+  {
+    id: 'q11',
+    concept: 'Observabilidad',
+    text: '¿Qué herramienta ayuda a revisar registros y métricas de una Azure Function?',
+    options: [
+      'Application Insights, integrado con Azure Monitor',
+      'El historial del navegador de cada usuario',
+      'Una variable global dentro de la función',
+      'El archivo HTML de la página principal'
+    ],
+    answer: 0,
+    explanation:
+      'Application Insights permite recopilar y consultar telemetría, como registros, métricas y trazas, para entender el comportamiento de las funciones.'
+  },
 ];
 
 module.exports = { questions };
