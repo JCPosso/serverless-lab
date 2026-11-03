@@ -30,6 +30,7 @@ app.http('info', {
         processUptimeSeconds: Math.round(process.uptime()),
         nodeVersion: process.version,
         region: process.env.REGION_NAME || 'local',
+        mensaje: process.env.LAB_MENSAJE || '(variable no definida)',
         serverTimeMs: Date.now() - started
       }
     };
