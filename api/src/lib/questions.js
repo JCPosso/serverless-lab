@@ -153,7 +153,7 @@ const questions = [
       'Una variable global dentro de la función',
       'El archivo HTML de la página principal'
     ],
-    answer: 999,
+    answer: 0,
     explanation:
       'Application Insights permite recopilar y consultar telemetría, como registros, métricas y trazas, para entender el comportamiento de las funciones.'
   },
